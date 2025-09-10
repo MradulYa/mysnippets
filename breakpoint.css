@@ -1,0 +1,28 @@
+.container{border: 5px solid red;}
+.col-12,.col-2,.col-5{
+    border: 5px solid saddlebrown;
+}
+#header{
+    background-color: goldenrod;
+}
+#menu{
+    background-color: aquamarine;
+}
+#footer{
+    background-color: palevioletred;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding: 5px;
+}
+.col-8{
+    border: solid saddlebrown;
+    background: rgb(156, 151, 151);
+    
+}
+.col-4{
+    border: solid saddlebrown;
+    
+}

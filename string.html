@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var st=new String()
+        var st1=new String()
+        st="vikas";
+        st1="chaudhary";
+        var c=st.concat(st1);
+        document.write(c+"<br>");
+        var d=st.charAt(0);
+        document.write(d+"<br>");
+        var e=st.charCodeAt(0);
+        document.write(e+"<br>");
+        var r=c.indexOf('i');
+        var r1=c.indexOf('i',2);
+        var r2=c.lastIndexOf('i');
+        document.write(r+"<br>");
+        document.write(r1+"<br>");
+        document.write(r2+"<br>");
+        var p = new String("hello this is index");
+        l=p.length;
+        document.write(l+"<br>");
+        var count=0;
+        for(var i=0;i<l;i++){
+            if(p[i]=='i')
+            {
+                count=count+1;
+            }
+        }
+        document.write(count);
+
+    </script>
+    
+</body>
+</html>

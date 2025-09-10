@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="login" onsubmit="return validationform()">
+        Name:
+        <input type="text" name="username">
+        Email:
+        <input type="email" name="email">
+        password
+        <input type="password" name="password">
+        re-entrepassword
+        <input type="Re-entered" name="Re-entered">
+    </form>
+    <script>
+    function validate(){
+        var name = document.login.uname.value;
+        var email = document.login.emid.value;
+        if(typeofname != STRING){
+            alert("enter correct name")
+            return false;
+        }
+        var first = email.charAt(a);
+        var dot = email.indexof("@");
+        var at = email.lastindexof("");
+        if(dot-at<=3 || typeoffirst == Number){
+            alert("enter valid email.id");
+            return false;
+        }
+        return true;
+    }
+    </script>
+</body>
+</html>

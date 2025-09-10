@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        
+        document.write("Hello");
+        document.write("<br>");
+        var b= parseInt(prompt("Enter the number of row"));
+        if (b<3){
+            alert("Value less than 3");
+        }
+        else{
+            var c=confirm("DO you want to print the pattern");
+            if (c){
+                for(i=0;i<b;i++){
+                    for(j=0;j<i+1;j++){
+                        document.write("*");
+                    }
+                    document.write("<br>");
+                }
+            }
+
+        }
+        
+    </script>
+    
+</body>
+</html>
